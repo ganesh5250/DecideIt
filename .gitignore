@@ -1,0 +1,26 @@
+# Environment and secrets
+.env
+*.env.local
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Private uploads and generated outputs
+uploads/
+private_data/
+output_*.json
